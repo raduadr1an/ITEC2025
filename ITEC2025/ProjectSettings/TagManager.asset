@@ -44,6 +44,9 @@ TagManager:
   - name: Tilemaps
     uniqueID: 1014407393
     locked: 0
+  - name: PP
+    uniqueID: 1153152583
+    locked: 0
   - name: Player
     uniqueID: 3092129491
     locked: 0
