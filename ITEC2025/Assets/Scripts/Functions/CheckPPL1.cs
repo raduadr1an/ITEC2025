@@ -4,12 +4,12 @@ public class CheckPPL1 : MonoBehaviour
 {
     public static bool inRangeG = false;
     public static bool inRangeV = false;
-
+    public static bool isOpen = false;
     void Update()
     {
-        if (inRangeG && inRangeV)
+        if (inRangeG && inRangeV && !isOpen)
         {
-            Debug.Log("bombombini gusini");
+            isOpen = true;
         }
     }
 }
