@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseMenu1 : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
     public bool GameIsPaused;
     public GameObject pauseMenuUI;
