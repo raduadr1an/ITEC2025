@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TriggerDetectorG2 : MonoBehaviour
+public class TriggerDetectorV2 : MonoBehaviour
 {
     private bool isPressed = false;
     private PressurePlateManager manager;
@@ -8,12 +8,12 @@ public class TriggerDetectorG2 : MonoBehaviour
 
     private void Start()
     {
-        manager = FindObjectOfType<PressurePlateManager>();
+        manager = FindFirstObjectByType<PressurePlateManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.name == "Player 1" && !isPressed)
+        if (other.gameObject.name == "Player 2" && !isPressed)
         {
             isPressed = true;
             currentCollider = other;

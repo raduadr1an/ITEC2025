@@ -8,6 +8,7 @@ public class PressurePlateManager : MonoBehaviour
     private bool timerRunning = false;
     public float timeLimit = 15f;
     private Coroutine timerCoroutine;
+    public static bool done = false;
 
     public void PlatePressed()
     {
@@ -20,10 +21,9 @@ public class PressurePlateManager : MonoBehaviour
 
         if (platesPressed >= totalPlates)
         {
-            Debug.Log("All pressure plates pressed in time! Puzzle complete.");
+            done = true;
             if (timerCoroutine != null)
                 StopCoroutine(timerCoroutine);
-            // Do something like open a door here
         }
     }
 
@@ -41,23 +41,20 @@ public class PressurePlateManager : MonoBehaviour
         ResetPlates();
     }
 
-    [System.Obsolete]
     public void ResetPlates()
     {
         platesPressed = 0;
         timerRunning = false;
 
-        // Reset visuals or states on each plate
-        TriggerDetectorG2[] arrG = FindObjectsOfType<TriggerDetectorG2>();
-        for (int i = 0; i < arrG.Length; i++)
+        TriggerDetectorG2[] arrG = FindObjectsByType<TriggerDetectorG2>(FindObjectsSortMode.None);
+        foreach (var plate in arrG)
         {
-            TriggerDetectorG2 plate = arrG[i];
             plate.ResetPlate();
         }
-        TriggerDetectorV2[] arrV = FindObjectsOfType<TriggerDetectorV2>();
-        for (int i = 0; i < arrV.Length; i++)
+
+        TriggerDetectorV2[] arrV = FindObjectsByType<TriggerDetectorV2>(FindObjectsSortMode.None);
+        foreach (var plate in arrV)
         {
-            TriggerDetectorV2 plate = arrV[i];
             plate.ResetPlate();
         }
     }
