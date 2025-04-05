@@ -7,7 +7,7 @@ public class SceneChanger : MonoBehaviour
 {
     public static SceneChanger Instance;
     private Image fadeImage;
-    public float fadeDuration = 1f;
+    public float fadeDuration = 1.8f;
 
     private void Awake()
     {
