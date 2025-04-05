@@ -2,10 +2,17 @@ using UnityEngine;
 
 public class ButtonFunctions: MonoBehaviour
 {
+    private SceneChanger sceneChanger;
+    public GameObject _gameObject;
 
+    private void Start()
+    {
+        sceneChanger = FindFirstObjectByType<SceneChanger>();
+    }
     public void PlayNowButton()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameLevel");
+        Hide.SetInactive(_gameObject);
+        sceneChanger.ChangeScene("Intro");
     }
 
     public void QuitButton()
