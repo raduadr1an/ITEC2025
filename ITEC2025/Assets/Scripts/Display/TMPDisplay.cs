@@ -5,12 +5,13 @@ using System.Collections.Generic;
 
 public class TMPDisplay : MonoBehaviour
 {
+    private SceneChanger sceneChanger;
     private TextMeshProUGUI tmpText;
     private List<string> textSequences = new List<string>
     {
-        "First line of text.",
-        "Second line of text.",
-        "Third line of text."
+        ".",
+        ".",
+        "."
     };
     public float charactersPerSecond = 10f;
 
@@ -21,6 +22,7 @@ public class TMPDisplay : MonoBehaviour
     void Start()
     {
         tmpText = GetComponent<TextMeshProUGUI>();
+        sceneChanger = FindFirstObjectByType<SceneChanger>();
 
         DisplayNextText();
     }
@@ -37,7 +39,14 @@ public class TMPDisplay : MonoBehaviour
             }
             else
             {
-                DisplayNextText();
+                if (currentTextIndex < textSequences.Count)
+                {
+                    DisplayNextText();
+                }
+                else
+                {
+                    sceneChanger.ChangeScene("Level1");
+                }
             }
         }
     }
