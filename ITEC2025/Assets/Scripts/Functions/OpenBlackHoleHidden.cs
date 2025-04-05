@@ -10,13 +10,6 @@ public class OpenBlackHoleHidden : MonoBehaviour
         if(other.gameObject.name == "Player 2")
         {
             _gameObject.SetActive(true);
-            StartCoroutine(WaitForTwoSeconds());
         }
-    }
-
-    private IEnumerator WaitForTwoSeconds()
-    {
-        yield return new WaitForSeconds(2f);
-        _gameObject.SetActive(false);
     }
 }
