@@ -9,6 +9,8 @@ public class PressurePlateManager : MonoBehaviour
     public float timeLimit = 15f;
     private Coroutine timerCoroutine;
     public static bool done = false;
+    public AudioSource audioSource;
+    public AudioClip soundClip;
 
     public void PlatePressed()
     {
@@ -22,6 +24,7 @@ public class PressurePlateManager : MonoBehaviour
         if (platesPressed >= totalPlates)
         {
             done = true;
+            audioSource.PlayOneShot(soundClip);
             if (timerCoroutine != null)
                 StopCoroutine(timerCoroutine);
         }

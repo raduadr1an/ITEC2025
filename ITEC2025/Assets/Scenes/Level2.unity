@@ -4398,6 +4398,7 @@ MonoBehaviour:
   _g2: {fileID: 1955632539}
   audioSource: {fileID: 312190168}
   soundClip: {fileID: 8300000, guid: 22a60096f295c3f4aa7fb1cc21dc6697, type: 3}
+  spr: {fileID: 1328320914}
 --- !u!82 &312190168 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: -8774517430460590343, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
@@ -4845,6 +4846,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 974476357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &589122564 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 273164157846798786, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+  m_PrefabInstance: {fileID: 887529316}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &887529316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5058,6 +5064,7 @@ MonoBehaviour:
   _g2: {fileID: 1645666741}
   audioSource: {fileID: 312190168}
   soundClip: {fileID: 8300000, guid: 22a60096f295c3f4aa7fb1cc21dc6697, type: 3}
+  spr: {fileID: 589122564}
 --- !u!1 &1276901269
 GameObject:
   m_ObjectHideFlags: 0
@@ -5142,6 +5149,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1328320914 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 273164157846798786, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+  m_PrefabInstance: {fileID: 238066655}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1527400027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5684,6 +5696,7 @@ MonoBehaviour:
   _g2: {fileID: 1631837178}
   audioSource: {fileID: 312190168}
   soundClip: {fileID: 8300000, guid: 22a60096f295c3f4aa7fb1cc21dc6697, type: 3}
+  spr: {fileID: 1998715820}
 --- !u!1001 &1711950551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5785,6 +5798,11 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 579385299989123615, guid: c62be46246c6ac645b2bc2364ead5c2a, type: 3}
   m_PrefabInstance: {fileID: 1711950551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1758044552 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 273164157846798786, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+  m_PrefabInstance: {fileID: 1641968922}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1760715031
 GameObject:
@@ -6194,6 +6212,7 @@ MonoBehaviour:
   _g2: {fileID: 1894923848}
   audioSource: {fileID: 312190168}
   soundClip: {fileID: 8300000, guid: 22a60096f295c3f4aa7fb1cc21dc6697, type: 3}
+  spr: {fileID: 1758044552}
 --- !u!1 &1955632539
 GameObject:
   m_ObjectHideFlags: 0
@@ -6278,6 +6297,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 974476357}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1998715820 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 273164157846798786, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+  m_PrefabInstance: {fileID: 1527400027}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2116295752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6286,6 +6310,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8774517430460590343, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: d5cbe65fb34c0a544b0f49cfa384053e, type: 3}
+    - target: {fileID: -8774517430460590343, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d5cbe65fb34c0a544b0f49cfa384053e, type: 3}
     - target: {fileID: 1969737951890841077, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.49
@@ -6366,6 +6398,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameObject: {fileID: 1642524081}
+  audioSource: {fileID: 2116295755}
+  soundClip: {fileID: 8300000, guid: d5cbe65fb34c0a544b0f49cfa384053e, type: 3}
+--- !u!82 &2116295755 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -8774517430460590343, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+  m_PrefabInstance: {fileID: 2116295752}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2131983750
 PrefabInstance:
   m_ObjectHideFlags: 0
