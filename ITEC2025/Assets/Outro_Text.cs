@@ -9,9 +9,9 @@ public class Outro_Text : MonoBehaviour
     private TextMeshProUGUI tmpText;
     private List<string> textSequences = new List<string>
     {
-        "Congratulations you were able to escape the tample!",
-        "Now you and your frined are free!",
-        "The Gods of the Ancient are grateful for trying out their game!"
+        "Congratulations you were able to escape the temple!",
+        "Now the two of you are finally free!",
+        "The Tralalero Tralala vs Bombardiro Crocodilo team thanks you for playing the game!"
     };
     public float charactersPerSecond = 10f;
 
@@ -45,7 +45,7 @@ public class Outro_Text : MonoBehaviour
                 }
                 else
                 {
-                    sceneChanger.ChangeScene("Level1");
+                    sceneChanger.ChangeScene("MainMenu");
                 }
             }
         }

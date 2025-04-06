@@ -10,8 +10,8 @@ public class TMPDisplay : MonoBehaviour
     private List<string> textSequences = new List<string>
     {
         "Welcome to the Chains of the Ancient.",
-        "You and your friend are curently blocked in this tample. But do not worry! I will help you get out of here.",
-        "With the power of nature let the wind guide you through your journey!"
+        "The two of you are curently blocked in this temple. But do not despair! I will tell you of a way to get out of here.",
+        "Try your best and you two will succeed, I know it!"
     };
     public float charactersPerSecond = 10f;
 
