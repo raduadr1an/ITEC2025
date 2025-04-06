@@ -3,15 +3,15 @@ using TMPro;
 using System.Collections;
 using System.Collections.Generic;
 
-public class TMPDisplay : MonoBehaviour
+public class Outro_Text : MonoBehaviour
 {
     private SceneChanger sceneChanger;
     private TextMeshProUGUI tmpText;
     private List<string> textSequences = new List<string>
     {
-        "Welcome to the Chains of the Ancient.",
-        "You and your friend are curently blocked in this tample. But do not worry! I will help you get out of here.",
-        "With the power of nature let the wind guide you through your journey!"
+        "Congratulations you were able to escape the tample!",
+        "Now you and your frined are free!",
+        "The Gods of the Ancient are grateful for trying out their game!"
     };
     public float charactersPerSecond = 10f;
 
@@ -55,12 +55,12 @@ public class TMPDisplay : MonoBehaviour
     {
         if (currentTextIndex < textSequences.Count)
         {
-            typingCoroutine = StartCoroutine(TypeText(textSequences[currentTextIndex]));
+            typingCoroutine = StartCoroutine(Typetext(textSequences[currentTextIndex]));
             currentTextIndex++;
         }
     }
 
-    IEnumerator TypeText(string text)
+    IEnumerator Typetext(string text)
     {
         isTyping = true;
         tmpText.text = text;
