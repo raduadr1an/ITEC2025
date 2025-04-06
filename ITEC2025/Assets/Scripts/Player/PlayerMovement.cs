@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -6,7 +7,8 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
     public Animator anim;
-
+    public AudioSource audioSource;
+    public AudioClip soundClip;
     [Header("Custom Keybinds")]
     public KeyCode upKey = KeyCode.W;
     public KeyCode downKey = KeyCode.S;
@@ -50,5 +52,13 @@ public class PlayerMovement : MonoBehaviour
     bool IsMoving()
     {
         return movement.x != 0 || movement.y != 0;
+    }
+
+    public void PlayAudio()
+    {
+        if (audioSource != null && soundClip != null)
+        {
+            audioSource.PlayOneShot(soundClip);
+        }
     }
 }

@@ -315,6 +315,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573472017}
     m_Modifications:
+    - target: {fileID: -8774517430460590343, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1969737951890841077, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.47
@@ -484,6 +488,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69170dc7cf3fcb44a45ba9ca1c9f54a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 242931637}
+  soundClip: {fileID: 8300000, guid: 22a60096f295c3f4aa7fb1cc21dc6697, type: 3}
+--- !u!82 &242931637 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -449590824768477322, guid: 785ca78177c107141a65736eaab44fb9, type: 3}
+  m_PrefabInstance: {fileID: 2057759476}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &249324557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4518,6 +4529,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2460015d036d7274995246515f950835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 449225817}
+  soundClip: {fileID: 8300000, guid: 22a60096f295c3f4aa7fb1cc21dc6697, type: 3}
+--- !u!82 &449225817 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -8774517430460590343, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+  m_PrefabInstance: {fileID: 157423195}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &460425800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4748,6 +4766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69170dc7cf3fcb44a45ba9ca1c9f54a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 242931637}
+  soundClip: {fileID: 8300000, guid: 22a60096f295c3f4aa7fb1cc21dc6697, type: 3}
 --- !u!1001 &563243089
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4756,6 +4776,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 998258631}
     m_Modifications:
+    - target: {fileID: -449590824768477322, guid: 785ca78177c107141a65736eaab44fb9, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2511161943675429133, guid: 785ca78177c107141a65736eaab44fb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.44
@@ -5061,6 +5085,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e69170dc7cf3fcb44a45ba9ca1c9f54a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 242931637}
+  soundClip: {fileID: 8300000, guid: 22a60096f295c3f4aa7fb1cc21dc6697, type: 3}
 --- !u!1 &987974682
 GameObject:
   m_ObjectHideFlags: 0
@@ -5172,6 +5198,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573472017}
     m_Modifications:
+    - target: {fileID: -8774517430460590343, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1969737951890841077, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.46
@@ -5515,6 +5545,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1573472017}
     m_Modifications:
+    - target: {fileID: -8774517430460590343, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1969737951890841077, guid: 3384dbce69d805f4286c5cb11c33a24b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.54
@@ -5764,6 +5798,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 998258631}
     m_Modifications:
+    - target: {fileID: -449590824768477322, guid: 785ca78177c107141a65736eaab44fb9, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2511161943675429133, guid: 785ca78177c107141a65736eaab44fb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.49
@@ -6022,6 +6060,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2460015d036d7274995246515f950835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 449225817}
+  soundClip: {fileID: 8300000, guid: 22a60096f295c3f4aa7fb1cc21dc6697, type: 3}
 --- !u!1 &1419080478
 GameObject:
   m_ObjectHideFlags: 0
@@ -6403,6 +6443,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2460015d036d7274995246515f950835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 449225817}
+  soundClip: {fileID: 8300000, guid: 22a60096f295c3f4aa7fb1cc21dc6697, type: 3}
 --- !u!1001 &1789231244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6488,6 +6530,7 @@ GameObject:
   - component: {fileID: 1918299619}
   - component: {fileID: 1918299620}
   - component: {fileID: 1918299621}
+  - component: {fileID: 1918299622}
   m_Layer: 0
   m_Name: PPmanager
   m_TagString: Untagged
@@ -6524,6 +6567,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalPlates: 6
   timeLimit: 30
+  audioSource: {fileID: 0}
+  soundClip: {fileID: 0}
 --- !u!114 &1918299621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6537,6 +6582,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameObject: {fileID: 1789231245}
+--- !u!82 &1918299622
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918299618}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -8320030855973750276, guid: 01ffde62e8cc17646ac4e8db9cb7cb9c, type: 2}
+  m_audioClip: {fileID: 8300000, guid: d5cbe65fb34c0a544b0f49cfa384053e, type: 3}
+  m_Resource: {fileID: 8300000, guid: d5cbe65fb34c0a544b0f49cfa384053e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &2015796013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6711,6 +6853,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 998258631}
     m_Modifications:
+    - target: {fileID: -449590824768477322, guid: 785ca78177c107141a65736eaab44fb9, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2511161943675429133, guid: 785ca78177c107141a65736eaab44fb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.45
