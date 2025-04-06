@@ -5,7 +5,8 @@ public class TriggerDetectorV2 : MonoBehaviour
     private bool isPressed = false;
     private PressurePlateManager manager;
     private Collider2D currentCollider;
-
+    public AudioSource audioSource;
+    public AudioClip soundClip;
     private void Start()
     {
         manager = FindFirstObjectByType<PressurePlateManager>();
@@ -17,6 +18,7 @@ public class TriggerDetectorV2 : MonoBehaviour
         {
             isPressed = true;
             currentCollider = other;
+            audioSource.PlayOneShot(soundClip);
             Debug.Log($"{other.name} pressed plate: {gameObject.name}");
             manager.PlatePressed();
             // Optional: change color or animation here

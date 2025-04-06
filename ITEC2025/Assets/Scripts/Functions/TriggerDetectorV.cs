@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class TriggerDetectorV : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip soundClip;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.name == "Player 2")
         {        
             CheckPPL1.inRangeV = true;
+            audioSource.PlayOneShot(soundClip);
             Debug.Log("player2 has entered the trigger zone.");
         }
     }
